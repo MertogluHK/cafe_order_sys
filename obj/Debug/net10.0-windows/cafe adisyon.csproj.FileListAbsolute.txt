@@ -1,0 +1,18 @@
+C:\Users\kursa\source\repos\cafe adisyon\bin\Debug\net10.0-windows\cafe adisyon.exe
+C:\Users\kursa\source\repos\cafe adisyon\bin\Debug\net10.0-windows\cafe adisyon.deps.json
+C:\Users\kursa\source\repos\cafe adisyon\bin\Debug\net10.0-windows\cafe adisyon.runtimeconfig.json
+C:\Users\kursa\source\repos\cafe adisyon\bin\Debug\net10.0-windows\cafe adisyon.dll
+C:\Users\kursa\source\repos\cafe adisyon\bin\Debug\net10.0-windows\cafe adisyon.pdb
+C:\Users\kursa\source\repos\cafe adisyon\obj\Debug\net10.0-windows\cafe_adisyon.Login.resources
+C:\Users\kursa\source\repos\cafe adisyon\obj\Debug\net10.0-windows\cafe_adisyon.Form2.resources
+C:\Users\kursa\source\repos\cafe adisyon\obj\Debug\net10.0-windows\cafe_adisyon.Form3.resources
+C:\Users\kursa\source\repos\cafe adisyon\obj\Debug\net10.0-windows\cafe adisyon.csproj.GenerateResource.cache
+C:\Users\kursa\source\repos\cafe adisyon\obj\Debug\net10.0-windows\cafe adisyon.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kursa\source\repos\cafe adisyon\obj\Debug\net10.0-windows\cafe adisyon.AssemblyInfoInputs.cache
+C:\Users\kursa\source\repos\cafe adisyon\obj\Debug\net10.0-windows\cafe adisyon.AssemblyInfo.cs
+C:\Users\kursa\source\repos\cafe adisyon\obj\Debug\net10.0-windows\cafe adisyon.csproj.CoreCompileInputs.cache
+C:\Users\kursa\source\repos\cafe adisyon\obj\Debug\net10.0-windows\cafe adisyon.dll
+C:\Users\kursa\source\repos\cafe adisyon\obj\Debug\net10.0-windows\refint\cafe adisyon.dll
+C:\Users\kursa\source\repos\cafe adisyon\obj\Debug\net10.0-windows\cafe adisyon.pdb
+C:\Users\kursa\source\repos\cafe adisyon\obj\Debug\net10.0-windows\cafe adisyon.genruntimeconfig.cache
+C:\Users\kursa\source\repos\cafe adisyon\obj\Debug\net10.0-windows\ref\cafe adisyon.dll
