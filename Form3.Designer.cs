@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Siparis));
             listBox1 = new ListBox();
             listBox2 = new ListBox();
             label2 = new Label();
@@ -37,7 +38,6 @@
             button3 = new Button();
             label1 = new Label();
             button28 = new Button();
-            button4 = new Button();
             tabControl1 = new TabControl();
             tabPage1 = new TabPage();
             button27 = new Button();
@@ -137,6 +137,55 @@
             pictureBox22 = new PictureBox();
             pictureBox23 = new PictureBox();
             pictureBox24 = new PictureBox();
+            tabPage3 = new TabPage();
+            button4 = new Button();
+            button54 = new Button();
+            button55 = new Button();
+            button56 = new Button();
+            button57 = new Button();
+            button58 = new Button();
+            button59 = new Button();
+            button60 = new Button();
+            button61 = new Button();
+            button62 = new Button();
+            button63 = new Button();
+            button64 = new Button();
+            button65 = new Button();
+            button66 = new Button();
+            button67 = new Button();
+            button68 = new Button();
+            button69 = new Button();
+            button70 = new Button();
+            button71 = new Button();
+            button72 = new Button();
+            button73 = new Button();
+            button74 = new Button();
+            button75 = new Button();
+            button76 = new Button();
+            pictureBox25 = new PictureBox();
+            label28 = new Label();
+            label29 = new Label();
+            label30 = new Label();
+            label31 = new Label();
+            label32 = new Label();
+            label33 = new Label();
+            pictureBox26 = new PictureBox();
+            pictureBox27 = new PictureBox();
+            pictureBox28 = new PictureBox();
+            pictureBox29 = new PictureBox();
+            pictureBox30 = new PictureBox();
+            pictureBox31 = new PictureBox();
+            label34 = new Label();
+            label35 = new Label();
+            label36 = new Label();
+            label37 = new Label();
+            label38 = new Label();
+            label39 = new Label();
+            pictureBox32 = new PictureBox();
+            pictureBox33 = new PictureBox();
+            pictureBox34 = new PictureBox();
+            pictureBox35 = new PictureBox();
+            pictureBox36 = new PictureBox();
             tabControl1.SuspendLayout();
             tabPage1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox7).BeginInit();
@@ -164,10 +213,24 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox22).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox23).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox24).BeginInit();
+            tabPage3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox25).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox26).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox27).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox28).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox29).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox30).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox31).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox32).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox33).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox34).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox35).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox36).BeginInit();
             SuspendLayout();
             // 
             // listBox1
             // 
+            listBox1.Anchor = AnchorStyles.None;
             listBox1.BackColor = Color.FromArgb(255, 192, 128);
             listBox1.FormattingEnabled = true;
             listBox1.Location = new Point(12, 85);
@@ -177,6 +240,7 @@
             // 
             // listBox2
             // 
+            listBox2.Anchor = AnchorStyles.None;
             listBox2.BackColor = Color.FromArgb(255, 128, 128);
             listBox2.FormattingEnabled = true;
             listBox2.Location = new Point(1202, 85);
@@ -186,6 +250,7 @@
             // 
             // label2
             // 
+            label2.Anchor = AnchorStyles.None;
             label2.AutoSize = true;
             label2.BackColor = Color.Transparent;
             label2.Font = new Font("Segoe UI", 15F);
@@ -198,6 +263,7 @@
             // 
             // label3
             // 
+            label3.Anchor = AnchorStyles.None;
             label3.AutoSize = true;
             label3.Font = new Font("Segoe UI", 23F, FontStyle.Bold);
             label3.ForeColor = Color.White;
@@ -209,6 +275,7 @@
             // 
             // button1
             // 
+            button1.Anchor = AnchorStyles.None;
             button1.BackColor = Color.FromArgb(128, 255, 128);
             button1.Font = new Font("Segoe UI", 15F);
             button1.Location = new Point(294, 568);
@@ -220,6 +287,7 @@
             // 
             // button2
             // 
+            button2.Anchor = AnchorStyles.None;
             button2.Location = new Point(502, 568);
             button2.Name = "button2";
             button2.Size = new Size(158, 61);
@@ -229,6 +297,7 @@
             // 
             // button3
             // 
+            button3.Anchor = AnchorStyles.None;
             button3.BackColor = Color.Firebrick;
             button3.Font = new Font("Segoe UI", 15F);
             button3.ForeColor = Color.Black;
@@ -241,6 +310,7 @@
             // 
             // label1
             // 
+            label1.Anchor = AnchorStyles.None;
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 15F);
             label1.ForeColor = Color.White;
@@ -252,6 +322,7 @@
             // 
             // button28
             // 
+            button28.Anchor = AnchorStyles.None;
             button28.Location = new Point(828, 568);
             button28.Name = "button28";
             button28.Size = new Size(158, 61);
@@ -259,22 +330,12 @@
             button28.Text = "button28";
             button28.UseVisualStyleBackColor = true;
             // 
-            // button4
-            // 
-            button4.BackColor = Color.FromArgb(224, 224, 224);
-            button4.Font = new Font("Segoe UI", 15F);
-            button4.ForeColor = Color.FromArgb(64, 64, 64);
-            button4.Location = new Point(12, 12);
-            button4.Name = "button4";
-            button4.Size = new Size(100, 39);
-            button4.TabIndex = 48;
-            button4.Text = "GERİ";
-            button4.UseVisualStyleBackColor = false;
-            // 
             // tabControl1
             // 
+            tabControl1.Anchor = AnchorStyles.None;
             tabControl1.Controls.Add(tabPage1);
             tabControl1.Controls.Add(tabPage2);
+            tabControl1.Controls.Add(tabPage3);
             tabControl1.Location = new Point(294, 85);
             tabControl1.Name = "tabControl1";
             tabControl1.SelectedIndex = 0;
@@ -349,6 +410,7 @@
             button27.TabIndex = 47;
             button27.Text = "-";
             button27.UseVisualStyleBackColor = false;
+            button27.Visible = false;
             // 
             // button29
             // 
@@ -360,6 +422,7 @@
             button29.TabIndex = 46;
             button29.Text = "+";
             button29.UseVisualStyleBackColor = false;
+            button29.Visible = false;
             // 
             // button25
             // 
@@ -371,6 +434,7 @@
             button25.TabIndex = 45;
             button25.Text = "-";
             button25.UseVisualStyleBackColor = false;
+            button25.Visible = false;
             // 
             // button26
             // 
@@ -382,6 +446,7 @@
             button26.TabIndex = 44;
             button26.Text = "+";
             button26.UseVisualStyleBackColor = false;
+            button26.Visible = false;
             // 
             // button23
             // 
@@ -393,6 +458,7 @@
             button23.TabIndex = 43;
             button23.Text = "-";
             button23.UseVisualStyleBackColor = false;
+            button23.Visible = false;
             // 
             // button24
             // 
@@ -404,6 +470,7 @@
             button24.TabIndex = 42;
             button24.Text = "+";
             button24.UseVisualStyleBackColor = false;
+            button24.Visible = false;
             // 
             // button21
             // 
@@ -611,6 +678,7 @@
             pictureBox7.Size = new Size(100, 100);
             pictureBox7.TabIndex = 23;
             pictureBox7.TabStop = false;
+            pictureBox7.Visible = false;
             // 
             // label10
             // 
@@ -673,6 +741,7 @@
             pictureBox8.Size = new Size(100, 100);
             pictureBox8.TabIndex = 16;
             pictureBox8.TabStop = false;
+            pictureBox8.Visible = false;
             // 
             // pictureBox9
             // 
@@ -681,36 +750,45 @@
             pictureBox9.Size = new Size(100, 100);
             pictureBox9.TabIndex = 15;
             pictureBox9.TabStop = false;
+            pictureBox9.Visible = false;
             // 
             // pictureBox10
             // 
+            pictureBox10.Image = (Image)resources.GetObject("pictureBox10.Image");
             pictureBox10.Location = new Point(319, 256);
             pictureBox10.Name = "pictureBox10";
             pictureBox10.Size = new Size(100, 100);
+            pictureBox10.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox10.TabIndex = 14;
             pictureBox10.TabStop = false;
             // 
             // pictureBox11
             // 
+            pictureBox11.Image = (Image)resources.GetObject("pictureBox11.Image");
             pictureBox11.Location = new Point(174, 256);
             pictureBox11.Name = "pictureBox11";
             pictureBox11.Size = new Size(100, 100);
+            pictureBox11.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox11.TabIndex = 13;
             pictureBox11.TabStop = false;
             // 
             // pictureBox12
             // 
+            pictureBox12.Image = (Image)resources.GetObject("pictureBox12.Image");
             pictureBox12.Location = new Point(33, 256);
             pictureBox12.Name = "pictureBox12";
             pictureBox12.Size = new Size(100, 100);
+            pictureBox12.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox12.TabIndex = 12;
             pictureBox12.TabStop = false;
             // 
             // pictureBox6
             // 
+            pictureBox6.Image = (Image)resources.GetObject("pictureBox6.Image");
             pictureBox6.Location = new Point(744, 47);
             pictureBox6.Name = "pictureBox6";
             pictureBox6.Size = new Size(100, 100);
+            pictureBox6.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox6.TabIndex = 11;
             pictureBox6.TabStop = false;
             // 
@@ -770,41 +848,51 @@
             // 
             // pictureBox5
             // 
+            pictureBox5.Image = (Image)resources.GetObject("pictureBox5.Image");
             pictureBox5.Location = new Point(606, 47);
             pictureBox5.Name = "pictureBox5";
             pictureBox5.Size = new Size(100, 100);
+            pictureBox5.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox5.TabIndex = 4;
             pictureBox5.TabStop = false;
             // 
             // pictureBox4
             // 
+            pictureBox4.Image = (Image)resources.GetObject("pictureBox4.Image");
             pictureBox4.Location = new Point(467, 47);
             pictureBox4.Name = "pictureBox4";
             pictureBox4.Size = new Size(100, 100);
+            pictureBox4.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox4.TabIndex = 3;
             pictureBox4.TabStop = false;
             // 
             // pictureBox3
             // 
+            pictureBox3.Image = (Image)resources.GetObject("pictureBox3.Image");
             pictureBox3.Location = new Point(319, 47);
             pictureBox3.Name = "pictureBox3";
             pictureBox3.Size = new Size(100, 100);
+            pictureBox3.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox3.TabIndex = 2;
             pictureBox3.TabStop = false;
             // 
             // pictureBox2
             // 
+            pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
             pictureBox2.Location = new Point(174, 47);
             pictureBox2.Name = "pictureBox2";
             pictureBox2.Size = new Size(100, 100);
+            pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox2.TabIndex = 1;
             pictureBox2.TabStop = false;
             // 
             // pictureBox1
             // 
+            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
             pictureBox1.Location = new Point(33, 47);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(100, 100);
+            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox1.TabIndex = 0;
             pictureBox1.TabStop = false;
             // 
@@ -1334,6 +1422,532 @@
             pictureBox24.TabIndex = 48;
             pictureBox24.TabStop = false;
             // 
+            // tabPage3
+            // 
+            tabPage3.Controls.Add(button4);
+            tabPage3.Controls.Add(button54);
+            tabPage3.Controls.Add(button55);
+            tabPage3.Controls.Add(button56);
+            tabPage3.Controls.Add(button57);
+            tabPage3.Controls.Add(button58);
+            tabPage3.Controls.Add(button59);
+            tabPage3.Controls.Add(button60);
+            tabPage3.Controls.Add(button61);
+            tabPage3.Controls.Add(button62);
+            tabPage3.Controls.Add(button63);
+            tabPage3.Controls.Add(button64);
+            tabPage3.Controls.Add(button65);
+            tabPage3.Controls.Add(button66);
+            tabPage3.Controls.Add(button67);
+            tabPage3.Controls.Add(button68);
+            tabPage3.Controls.Add(button69);
+            tabPage3.Controls.Add(button70);
+            tabPage3.Controls.Add(button71);
+            tabPage3.Controls.Add(button72);
+            tabPage3.Controls.Add(button73);
+            tabPage3.Controls.Add(button74);
+            tabPage3.Controls.Add(button75);
+            tabPage3.Controls.Add(button76);
+            tabPage3.Controls.Add(pictureBox25);
+            tabPage3.Controls.Add(label28);
+            tabPage3.Controls.Add(label29);
+            tabPage3.Controls.Add(label30);
+            tabPage3.Controls.Add(label31);
+            tabPage3.Controls.Add(label32);
+            tabPage3.Controls.Add(label33);
+            tabPage3.Controls.Add(pictureBox26);
+            tabPage3.Controls.Add(pictureBox27);
+            tabPage3.Controls.Add(pictureBox28);
+            tabPage3.Controls.Add(pictureBox29);
+            tabPage3.Controls.Add(pictureBox30);
+            tabPage3.Controls.Add(pictureBox31);
+            tabPage3.Controls.Add(label34);
+            tabPage3.Controls.Add(label35);
+            tabPage3.Controls.Add(label36);
+            tabPage3.Controls.Add(label37);
+            tabPage3.Controls.Add(label38);
+            tabPage3.Controls.Add(label39);
+            tabPage3.Controls.Add(pictureBox32);
+            tabPage3.Controls.Add(pictureBox33);
+            tabPage3.Controls.Add(pictureBox34);
+            tabPage3.Controls.Add(pictureBox35);
+            tabPage3.Controls.Add(pictureBox36);
+            tabPage3.Location = new Point(4, 24);
+            tabPage3.Name = "tabPage3";
+            tabPage3.Padding = new Padding(3);
+            tabPage3.Size = new Size(876, 449);
+            tabPage3.TabIndex = 2;
+            tabPage3.Text = "Tatlılar";
+            tabPage3.UseVisualStyleBackColor = true;
+            // 
+            // button4
+            // 
+            button4.BackColor = Color.Red;
+            button4.Font = new Font("Segoe UI", 13F, FontStyle.Bold);
+            button4.Location = new Point(798, 368);
+            button4.Name = "button4";
+            button4.Size = new Size(46, 46);
+            button4.TabIndex = 143;
+            button4.Text = "-";
+            button4.UseVisualStyleBackColor = false;
+            // 
+            // button54
+            // 
+            button54.BackColor = Color.Lime;
+            button54.Font = new Font("Segoe UI", 13F, FontStyle.Bold);
+            button54.Location = new Point(744, 368);
+            button54.Name = "button54";
+            button54.Size = new Size(46, 46);
+            button54.TabIndex = 142;
+            button54.Text = "+";
+            button54.UseVisualStyleBackColor = false;
+            // 
+            // button55
+            // 
+            button55.BackColor = Color.Red;
+            button55.Font = new Font("Segoe UI", 13F, FontStyle.Bold);
+            button55.Location = new Point(660, 368);
+            button55.Name = "button55";
+            button55.Size = new Size(46, 46);
+            button55.TabIndex = 141;
+            button55.Text = "-";
+            button55.UseVisualStyleBackColor = false;
+            // 
+            // button56
+            // 
+            button56.BackColor = Color.Lime;
+            button56.Font = new Font("Segoe UI", 13F, FontStyle.Bold);
+            button56.Location = new Point(606, 368);
+            button56.Name = "button56";
+            button56.Size = new Size(46, 46);
+            button56.TabIndex = 140;
+            button56.Text = "+";
+            button56.UseVisualStyleBackColor = false;
+            // 
+            // button57
+            // 
+            button57.BackColor = Color.Red;
+            button57.Font = new Font("Segoe UI", 13F, FontStyle.Bold);
+            button57.Location = new Point(521, 368);
+            button57.Name = "button57";
+            button57.Size = new Size(46, 46);
+            button57.TabIndex = 139;
+            button57.Text = "-";
+            button57.UseVisualStyleBackColor = false;
+            // 
+            // button58
+            // 
+            button58.BackColor = Color.Lime;
+            button58.Font = new Font("Segoe UI", 13F, FontStyle.Bold);
+            button58.Location = new Point(467, 368);
+            button58.Name = "button58";
+            button58.Size = new Size(46, 46);
+            button58.TabIndex = 138;
+            button58.Text = "+";
+            button58.UseVisualStyleBackColor = false;
+            // 
+            // button59
+            // 
+            button59.BackColor = Color.Red;
+            button59.Font = new Font("Segoe UI", 13F, FontStyle.Bold);
+            button59.Location = new Point(373, 368);
+            button59.Name = "button59";
+            button59.Size = new Size(46, 46);
+            button59.TabIndex = 137;
+            button59.Text = "-";
+            button59.UseVisualStyleBackColor = false;
+            // 
+            // button60
+            // 
+            button60.BackColor = Color.Lime;
+            button60.Font = new Font("Segoe UI", 13F, FontStyle.Bold);
+            button60.Location = new Point(319, 368);
+            button60.Name = "button60";
+            button60.Size = new Size(46, 46);
+            button60.TabIndex = 136;
+            button60.Text = "+";
+            button60.UseVisualStyleBackColor = false;
+            // 
+            // button61
+            // 
+            button61.BackColor = Color.Red;
+            button61.Font = new Font("Segoe UI", 13F, FontStyle.Bold);
+            button61.Location = new Point(228, 368);
+            button61.Name = "button61";
+            button61.Size = new Size(46, 46);
+            button61.TabIndex = 135;
+            button61.Text = "-";
+            button61.UseVisualStyleBackColor = false;
+            // 
+            // button62
+            // 
+            button62.BackColor = Color.Lime;
+            button62.Font = new Font("Segoe UI", 13F, FontStyle.Bold);
+            button62.Location = new Point(174, 368);
+            button62.Name = "button62";
+            button62.Size = new Size(46, 46);
+            button62.TabIndex = 134;
+            button62.Text = "+";
+            button62.UseVisualStyleBackColor = false;
+            // 
+            // button63
+            // 
+            button63.BackColor = Color.Red;
+            button63.Font = new Font("Segoe UI", 13F, FontStyle.Bold);
+            button63.Location = new Point(87, 368);
+            button63.Name = "button63";
+            button63.Size = new Size(46, 46);
+            button63.TabIndex = 133;
+            button63.Text = "-";
+            button63.UseVisualStyleBackColor = false;
+            // 
+            // button64
+            // 
+            button64.BackColor = Color.Lime;
+            button64.Font = new Font("Segoe UI", 13F, FontStyle.Bold);
+            button64.Location = new Point(33, 368);
+            button64.Name = "button64";
+            button64.Size = new Size(46, 46);
+            button64.TabIndex = 132;
+            button64.Text = "+";
+            button64.UseVisualStyleBackColor = false;
+            // 
+            // button65
+            // 
+            button65.BackColor = Color.Red;
+            button65.Font = new Font("Segoe UI", 13F, FontStyle.Bold);
+            button65.Location = new Point(798, 159);
+            button65.Name = "button65";
+            button65.Size = new Size(46, 46);
+            button65.TabIndex = 131;
+            button65.Text = "-";
+            button65.UseVisualStyleBackColor = false;
+            // 
+            // button66
+            // 
+            button66.BackColor = Color.Lime;
+            button66.Font = new Font("Segoe UI", 13F, FontStyle.Bold);
+            button66.Location = new Point(744, 159);
+            button66.Name = "button66";
+            button66.Size = new Size(46, 46);
+            button66.TabIndex = 130;
+            button66.Text = "+";
+            button66.UseVisualStyleBackColor = false;
+            // 
+            // button67
+            // 
+            button67.BackColor = Color.Red;
+            button67.Font = new Font("Segoe UI", 13F, FontStyle.Bold);
+            button67.Location = new Point(660, 159);
+            button67.Name = "button67";
+            button67.Size = new Size(46, 46);
+            button67.TabIndex = 129;
+            button67.Text = "-";
+            button67.UseVisualStyleBackColor = false;
+            // 
+            // button68
+            // 
+            button68.BackColor = Color.Lime;
+            button68.Font = new Font("Segoe UI", 13F, FontStyle.Bold);
+            button68.Location = new Point(606, 159);
+            button68.Name = "button68";
+            button68.Size = new Size(46, 46);
+            button68.TabIndex = 128;
+            button68.Text = "+";
+            button68.UseVisualStyleBackColor = false;
+            // 
+            // button69
+            // 
+            button69.BackColor = Color.Red;
+            button69.Font = new Font("Segoe UI", 13F, FontStyle.Bold);
+            button69.Location = new Point(521, 159);
+            button69.Name = "button69";
+            button69.Size = new Size(46, 46);
+            button69.TabIndex = 127;
+            button69.Text = "-";
+            button69.UseVisualStyleBackColor = false;
+            // 
+            // button70
+            // 
+            button70.BackColor = Color.Lime;
+            button70.Font = new Font("Segoe UI", 13F, FontStyle.Bold);
+            button70.Location = new Point(467, 159);
+            button70.Name = "button70";
+            button70.Size = new Size(46, 46);
+            button70.TabIndex = 126;
+            button70.Text = "+";
+            button70.UseVisualStyleBackColor = false;
+            // 
+            // button71
+            // 
+            button71.BackColor = Color.Red;
+            button71.Font = new Font("Segoe UI", 13F, FontStyle.Bold);
+            button71.Location = new Point(373, 159);
+            button71.Name = "button71";
+            button71.Size = new Size(46, 46);
+            button71.TabIndex = 125;
+            button71.Text = "-";
+            button71.UseVisualStyleBackColor = false;
+            // 
+            // button72
+            // 
+            button72.BackColor = Color.Lime;
+            button72.Font = new Font("Segoe UI", 13F, FontStyle.Bold);
+            button72.Location = new Point(319, 159);
+            button72.Name = "button72";
+            button72.Size = new Size(46, 46);
+            button72.TabIndex = 124;
+            button72.Text = "+";
+            button72.UseVisualStyleBackColor = false;
+            // 
+            // button73
+            // 
+            button73.BackColor = Color.Red;
+            button73.Font = new Font("Segoe UI", 13F, FontStyle.Bold);
+            button73.Location = new Point(228, 159);
+            button73.Name = "button73";
+            button73.Size = new Size(46, 46);
+            button73.TabIndex = 123;
+            button73.Text = "-";
+            button73.UseVisualStyleBackColor = false;
+            // 
+            // button74
+            // 
+            button74.BackColor = Color.Lime;
+            button74.Font = new Font("Segoe UI", 13F, FontStyle.Bold);
+            button74.Location = new Point(174, 159);
+            button74.Name = "button74";
+            button74.Size = new Size(46, 46);
+            button74.TabIndex = 122;
+            button74.Text = "+";
+            button74.UseVisualStyleBackColor = false;
+            // 
+            // button75
+            // 
+            button75.BackColor = Color.Red;
+            button75.Font = new Font("Segoe UI", 13F, FontStyle.Bold);
+            button75.Location = new Point(87, 159);
+            button75.Name = "button75";
+            button75.Size = new Size(46, 46);
+            button75.TabIndex = 121;
+            button75.Text = "-";
+            button75.UseVisualStyleBackColor = false;
+            // 
+            // button76
+            // 
+            button76.BackColor = Color.Lime;
+            button76.Font = new Font("Segoe UI", 13F, FontStyle.Bold);
+            button76.Location = new Point(33, 159);
+            button76.Name = "button76";
+            button76.Size = new Size(46, 46);
+            button76.TabIndex = 120;
+            button76.Text = "+";
+            button76.UseVisualStyleBackColor = false;
+            // 
+            // pictureBox25
+            // 
+            pictureBox25.Location = new Point(744, 262);
+            pictureBox25.Name = "pictureBox25";
+            pictureBox25.Size = new Size(100, 100);
+            pictureBox25.TabIndex = 119;
+            pictureBox25.TabStop = false;
+            // 
+            // label28
+            // 
+            label28.AutoSize = true;
+            label28.Location = new Point(773, 244);
+            label28.Name = "label28";
+            label28.Size = new Size(44, 15);
+            label28.TabIndex = 118;
+            label28.Text = "label28";
+            // 
+            // label29
+            // 
+            label29.AutoSize = true;
+            label29.Location = new Point(498, 244);
+            label29.Name = "label29";
+            label29.Size = new Size(44, 15);
+            label29.TabIndex = 117;
+            label29.Text = "label29";
+            // 
+            // label30
+            // 
+            label30.AutoSize = true;
+            label30.Location = new Point(638, 244);
+            label30.Name = "label30";
+            label30.Size = new Size(44, 15);
+            label30.TabIndex = 116;
+            label30.Text = "label30";
+            // 
+            // label31
+            // 
+            label31.AutoSize = true;
+            label31.Location = new Point(347, 244);
+            label31.Name = "label31";
+            label31.Size = new Size(44, 15);
+            label31.TabIndex = 115;
+            label31.Text = "label31";
+            // 
+            // label32
+            // 
+            label32.AutoSize = true;
+            label32.Location = new Point(203, 243);
+            label32.Name = "label32";
+            label32.Size = new Size(44, 15);
+            label32.TabIndex = 114;
+            label32.Text = "label32";
+            // 
+            // label33
+            // 
+            label33.AutoSize = true;
+            label33.Location = new Point(60, 243);
+            label33.Name = "label33";
+            label33.Size = new Size(44, 15);
+            label33.TabIndex = 113;
+            label33.Text = "label33";
+            // 
+            // pictureBox26
+            // 
+            pictureBox26.Location = new Point(606, 262);
+            pictureBox26.Name = "pictureBox26";
+            pictureBox26.Size = new Size(100, 100);
+            pictureBox26.TabIndex = 112;
+            pictureBox26.TabStop = false;
+            // 
+            // pictureBox27
+            // 
+            pictureBox27.Location = new Point(467, 262);
+            pictureBox27.Name = "pictureBox27";
+            pictureBox27.Size = new Size(100, 100);
+            pictureBox27.TabIndex = 111;
+            pictureBox27.TabStop = false;
+            // 
+            // pictureBox28
+            // 
+            pictureBox28.Location = new Point(319, 262);
+            pictureBox28.Name = "pictureBox28";
+            pictureBox28.Size = new Size(100, 100);
+            pictureBox28.TabIndex = 110;
+            pictureBox28.TabStop = false;
+            // 
+            // pictureBox29
+            // 
+            pictureBox29.Location = new Point(174, 262);
+            pictureBox29.Name = "pictureBox29";
+            pictureBox29.Size = new Size(100, 100);
+            pictureBox29.TabIndex = 109;
+            pictureBox29.TabStop = false;
+            // 
+            // pictureBox30
+            // 
+            pictureBox30.Location = new Point(33, 262);
+            pictureBox30.Name = "pictureBox30";
+            pictureBox30.Size = new Size(100, 100);
+            pictureBox30.TabIndex = 108;
+            pictureBox30.TabStop = false;
+            // 
+            // pictureBox31
+            // 
+            pictureBox31.Location = new Point(744, 53);
+            pictureBox31.Name = "pictureBox31";
+            pictureBox31.Size = new Size(100, 100);
+            pictureBox31.TabIndex = 107;
+            pictureBox31.TabStop = false;
+            // 
+            // label34
+            // 
+            label34.AutoSize = true;
+            label34.Location = new Point(769, 34);
+            label34.Name = "label34";
+            label34.Size = new Size(44, 15);
+            label34.TabIndex = 106;
+            label34.Text = "label34";
+            // 
+            // label35
+            // 
+            label35.AutoSize = true;
+            label35.Location = new Point(494, 34);
+            label35.Name = "label35";
+            label35.Size = new Size(44, 15);
+            label35.TabIndex = 105;
+            label35.Text = "label35";
+            // 
+            // label36
+            // 
+            label36.AutoSize = true;
+            label36.Location = new Point(634, 34);
+            label36.Name = "label36";
+            label36.Size = new Size(44, 15);
+            label36.TabIndex = 104;
+            label36.Text = "label36";
+            // 
+            // label37
+            // 
+            label37.AutoSize = true;
+            label37.Location = new Point(343, 34);
+            label37.Name = "label37";
+            label37.Size = new Size(44, 15);
+            label37.TabIndex = 103;
+            label37.Text = "label37";
+            // 
+            // label38
+            // 
+            label38.AutoSize = true;
+            label38.Location = new Point(199, 34);
+            label38.Name = "label38";
+            label38.Size = new Size(44, 15);
+            label38.TabIndex = 102;
+            label38.Text = "label38";
+            // 
+            // label39
+            // 
+            label39.AutoSize = true;
+            label39.Location = new Point(60, 34);
+            label39.Name = "label39";
+            label39.Size = new Size(44, 15);
+            label39.TabIndex = 101;
+            label39.Text = "label39";
+            // 
+            // pictureBox32
+            // 
+            pictureBox32.Location = new Point(606, 53);
+            pictureBox32.Name = "pictureBox32";
+            pictureBox32.Size = new Size(100, 100);
+            pictureBox32.TabIndex = 100;
+            pictureBox32.TabStop = false;
+            // 
+            // pictureBox33
+            // 
+            pictureBox33.Location = new Point(467, 53);
+            pictureBox33.Name = "pictureBox33";
+            pictureBox33.Size = new Size(100, 100);
+            pictureBox33.TabIndex = 99;
+            pictureBox33.TabStop = false;
+            // 
+            // pictureBox34
+            // 
+            pictureBox34.Location = new Point(319, 53);
+            pictureBox34.Name = "pictureBox34";
+            pictureBox34.Size = new Size(100, 100);
+            pictureBox34.TabIndex = 98;
+            pictureBox34.TabStop = false;
+            // 
+            // pictureBox35
+            // 
+            pictureBox35.Location = new Point(174, 53);
+            pictureBox35.Name = "pictureBox35";
+            pictureBox35.Size = new Size(100, 100);
+            pictureBox35.TabIndex = 97;
+            pictureBox35.TabStop = false;
+            // 
+            // pictureBox36
+            // 
+            pictureBox36.Location = new Point(33, 53);
+            pictureBox36.Name = "pictureBox36";
+            pictureBox36.Size = new Size(100, 100);
+            pictureBox36.TabIndex = 96;
+            pictureBox36.TabStop = false;
+            // 
             // Siparis
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -1341,7 +1955,6 @@
             BackColor = Color.Gray;
             ClientSize = new Size(1464, 641);
             Controls.Add(tabControl1);
-            Controls.Add(button4);
             Controls.Add(button28);
             Controls.Add(label1);
             Controls.Add(button3);
@@ -1383,6 +1996,20 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox22).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox23).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox24).EndInit();
+            tabPage3.ResumeLayout(false);
+            tabPage3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox25).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox26).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox27).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox28).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox29).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox30).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox31).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox32).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox33).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox34).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox35).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox36).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -1398,7 +2025,6 @@
         private Button button3;
         private Label label1;
         private Button button28;
-        private Button button4;
         private TabControl tabControl1;
         private TabPage tabPage1;
         private TabPage tabPage2;
@@ -1498,5 +2124,54 @@
         private PictureBox pictureBox22;
         private PictureBox pictureBox23;
         private PictureBox pictureBox24;
+        private TabPage tabPage3;
+        private Button button4;
+        private Button button54;
+        private Button button55;
+        private Button button56;
+        private Button button57;
+        private Button button58;
+        private Button button59;
+        private Button button60;
+        private Button button61;
+        private Button button62;
+        private Button button63;
+        private Button button64;
+        private Button button65;
+        private Button button66;
+        private Button button67;
+        private Button button68;
+        private Button button69;
+        private Button button70;
+        private Button button71;
+        private Button button72;
+        private Button button73;
+        private Button button74;
+        private Button button75;
+        private Button button76;
+        private PictureBox pictureBox25;
+        private Label label28;
+        private Label label29;
+        private Label label30;
+        private Label label31;
+        private Label label32;
+        private Label label33;
+        private PictureBox pictureBox26;
+        private PictureBox pictureBox27;
+        private PictureBox pictureBox28;
+        private PictureBox pictureBox29;
+        private PictureBox pictureBox30;
+        private PictureBox pictureBox31;
+        private Label label34;
+        private Label label35;
+        private Label label36;
+        private Label label37;
+        private Label label38;
+        private Label label39;
+        private PictureBox pictureBox32;
+        private PictureBox pictureBox33;
+        private PictureBox pictureBox34;
+        private PictureBox pictureBox35;
+        private PictureBox pictureBox36;
     }
 }

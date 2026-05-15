@@ -52,6 +52,7 @@
             // 
             // masabtn_1
             // 
+            masabtn_1.Anchor = AnchorStyles.None;
             masabtn_1.BackColor = Color.FromArgb(255, 224, 192);
             masabtn_1.Location = new Point(42, 35);
             masabtn_1.Name = "masabtn_1";
@@ -63,6 +64,7 @@
             // 
             // masabtn_2
             // 
+            masabtn_2.Anchor = AnchorStyles.None;
             masabtn_2.BackColor = Color.FromArgb(255, 224, 192);
             masabtn_2.Location = new Point(344, 35);
             masabtn_2.Name = "masabtn_2";
@@ -74,6 +76,7 @@
             // 
             // masabtn_3
             // 
+            masabtn_3.Anchor = AnchorStyles.None;
             masabtn_3.BackColor = Color.FromArgb(255, 224, 192);
             masabtn_3.Location = new Point(654, 35);
             masabtn_3.Name = "masabtn_3";
@@ -85,6 +88,7 @@
             // 
             // masabtn_4
             // 
+            masabtn_4.Anchor = AnchorStyles.None;
             masabtn_4.BackColor = Color.FromArgb(255, 224, 192);
             masabtn_4.Location = new Point(947, 35);
             masabtn_4.Name = "masabtn_4";
@@ -96,6 +100,7 @@
             // 
             // masabtn_6
             // 
+            masabtn_6.Anchor = AnchorStyles.None;
             masabtn_6.BackColor = Color.FromArgb(255, 224, 192);
             masabtn_6.Location = new Point(42, 191);
             masabtn_6.Name = "masabtn_6";
@@ -107,6 +112,7 @@
             // 
             // masabtn_7
             // 
+            masabtn_7.Anchor = AnchorStyles.None;
             masabtn_7.BackColor = Color.FromArgb(255, 224, 192);
             masabtn_7.Location = new Point(344, 191);
             masabtn_7.Name = "masabtn_7";
@@ -118,6 +124,7 @@
             // 
             // masabtn_8
             // 
+            masabtn_8.Anchor = AnchorStyles.None;
             masabtn_8.BackColor = Color.FromArgb(255, 224, 192);
             masabtn_8.Location = new Point(654, 191);
             masabtn_8.Name = "masabtn_8";
@@ -130,6 +137,7 @@
             // 
             // masabtn_9
             // 
+            masabtn_9.Anchor = AnchorStyles.None;
             masabtn_9.BackColor = Color.FromArgb(255, 224, 192);
             masabtn_9.Location = new Point(947, 191);
             masabtn_9.Name = "masabtn_9";
@@ -141,6 +149,7 @@
             // 
             // masabtn_11
             // 
+            masabtn_11.Anchor = AnchorStyles.None;
             masabtn_11.BackColor = Color.FromArgb(255, 224, 192);
             masabtn_11.Location = new Point(42, 341);
             masabtn_11.Name = "masabtn_11";
@@ -152,6 +161,7 @@
             // 
             // masabtn_12
             // 
+            masabtn_12.Anchor = AnchorStyles.None;
             masabtn_12.BackColor = Color.FromArgb(255, 224, 192);
             masabtn_12.Location = new Point(344, 341);
             masabtn_12.Name = "masabtn_12";
@@ -163,6 +173,7 @@
             // 
             // masabtn_13
             // 
+            masabtn_13.Anchor = AnchorStyles.None;
             masabtn_13.BackColor = Color.FromArgb(255, 224, 192);
             masabtn_13.Location = new Point(654, 341);
             masabtn_13.Name = "masabtn_13";
@@ -174,6 +185,7 @@
             // 
             // masabtn_14
             // 
+            masabtn_14.Anchor = AnchorStyles.None;
             masabtn_14.BackColor = Color.FromArgb(255, 224, 192);
             masabtn_14.Location = new Point(947, 341);
             masabtn_14.Name = "masabtn_14";
@@ -185,6 +197,7 @@
             // 
             // masabtn_18
             // 
+            masabtn_18.Anchor = AnchorStyles.None;
             masabtn_18.BackColor = Color.FromArgb(255, 224, 192);
             masabtn_18.Location = new Point(654, 495);
             masabtn_18.Name = "masabtn_18";
@@ -196,6 +209,7 @@
             // 
             // masabtn_16
             // 
+            masabtn_16.Anchor = AnchorStyles.None;
             masabtn_16.BackColor = Color.FromArgb(255, 224, 192);
             masabtn_16.Location = new Point(42, 495);
             masabtn_16.Name = "masabtn_16";
@@ -207,6 +221,7 @@
             // 
             // masabtn_5
             // 
+            masabtn_5.Anchor = AnchorStyles.None;
             masabtn_5.BackColor = Color.FromArgb(255, 224, 192);
             masabtn_5.Location = new Point(1225, 35);
             masabtn_5.Name = "masabtn_5";
@@ -218,6 +233,7 @@
             // 
             // masabtn_10
             // 
+            masabtn_10.Anchor = AnchorStyles.None;
             masabtn_10.BackColor = Color.FromArgb(255, 224, 192);
             masabtn_10.Location = new Point(1225, 191);
             masabtn_10.Name = "masabtn_10";
@@ -229,6 +245,7 @@
             // 
             // masabtn_15
             // 
+            masabtn_15.Anchor = AnchorStyles.None;
             masabtn_15.BackColor = Color.FromArgb(255, 224, 192);
             masabtn_15.Location = new Point(1225, 341);
             masabtn_15.Name = "masabtn_15";
@@ -240,6 +257,7 @@
             // 
             // masabtn_20
             // 
+            masabtn_20.Anchor = AnchorStyles.None;
             masabtn_20.BackColor = Color.FromArgb(255, 224, 192);
             masabtn_20.Location = new Point(1225, 495);
             masabtn_20.Name = "masabtn_20";
@@ -251,6 +269,7 @@
             // 
             // masabtn_17
             // 
+            masabtn_17.Anchor = AnchorStyles.None;
             masabtn_17.BackColor = Color.FromArgb(255, 224, 192);
             masabtn_17.Location = new Point(344, 495);
             masabtn_17.Name = "masabtn_17";
@@ -262,6 +281,7 @@
             // 
             // masabtn_19
             // 
+            masabtn_19.Anchor = AnchorStyles.None;
             masabtn_19.BackColor = Color.FromArgb(255, 224, 192);
             masabtn_19.Location = new Point(947, 495);
             masabtn_19.Name = "masabtn_19";

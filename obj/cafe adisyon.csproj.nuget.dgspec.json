@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kursa\\source\\repos\\cafe adisyon\\cafe adisyon.csproj": {}
+    "C:\\Users\\kursa\\source\\repos\\cafe_order_sys\\cafe adisyon.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kursa\\source\\repos\\cafe adisyon\\cafe adisyon.csproj": {
+    "C:\\Users\\kursa\\source\\repos\\cafe_order_sys\\cafe adisyon.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kursa\\source\\repos\\cafe adisyon\\cafe adisyon.csproj",
+        "projectUniqueName": "C:\\Users\\kursa\\source\\repos\\cafe_order_sys\\cafe adisyon.csproj",
         "projectName": "cafe adisyon",
-        "projectPath": "C:\\Users\\kursa\\source\\repos\\cafe adisyon\\cafe adisyon.csproj",
+        "projectPath": "C:\\Users\\kursa\\source\\repos\\cafe_order_sys\\cafe adisyon.csproj",
         "packagesPath": "C:\\Users\\kursa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kursa\\source\\repos\\cafe adisyon\\obj\\",
+        "outputPath": "C:\\Users\\kursa\\source\\repos\\cafe_order_sys\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\kursa\\AppData\\Roaming\\NuGet\\NuGet.Config",

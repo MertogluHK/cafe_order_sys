@@ -3,15 +3,15 @@
   "WorkspaceRootPath": "C:\\Users\\kursa\\source\\repos\\cafe adisyon\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1ED362C4-2A35-4F98-806F-EF1C06FB9E03}|cafe adisyon.csproj|c:\\users\\kursa\\source\\repos\\cafe adisyon\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{1ED362C4-2A35-4F98-806F-EF1C06FB9E03}|cafe adisyon.csproj|solutionrelative:form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{53EEB82D-53B2-CFBA-A240-D13A4B46E6F7}|cafe adisyon.csproj|c:\\users\\kursa\\source\\repos\\cafe adisyon\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{53EEB82D-53B2-CFBA-A240-D13A4B46E6F7}|cafe adisyon.csproj|solutionrelative:form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1ED362C4-2A35-4F98-806F-EF1C06FB9E03}|cafe adisyon.csproj|c:\\users\\kursa\\source\\repos\\cafe adisyon\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{1ED362C4-2A35-4F98-806F-EF1C06FB9E03}|cafe adisyon.csproj|C:\\Users\\kursa\\source\\repos\\cafe adisyon\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{1ED362C4-2A35-4F98-806F-EF1C06FB9E03}|cafe adisyon.csproj|solutionrelative:form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1ED362C4-2A35-4F98-806F-EF1C06FB9E03}|cafe adisyon.csproj|c:\\users\\kursa\\source\\repos\\cafe adisyon\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{1ED362C4-2A35-4F98-806F-EF1C06FB9E03}|cafe adisyon.csproj|C:\\Users\\kursa\\source\\repos\\cafe adisyon\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{1ED362C4-2A35-4F98-806F-EF1C06FB9E03}|cafe adisyon.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -34,8 +34,7 @@
               "RelativeToolTip": "Form1.cs [Tasar\u0131m]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-14T15:19:43.288Z",
-              "IsPinned": true,
-              "EditorCaption": " [Tasar\u0131m]"
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -47,8 +46,7 @@
               "RelativeToolTip": "Form2.cs [Tasar\u0131m]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-14T15:23:43.78Z",
-              "IsPinned": true,
-              "EditorCaption": " [Tasar\u0131m]"
+              "IsPinned": true
             },
             {
               "$type": "Document",

@@ -37,6 +37,7 @@
             // 
             // username
             // 
+            username.Anchor = AnchorStyles.None;
             username.BackColor = Color.White;
             username.Location = new Point(325, 240);
             username.Name = "username";
@@ -45,6 +46,7 @@
             // 
             // password
             // 
+            password.Anchor = AnchorStyles.None;
             password.Location = new Point(325, 300);
             password.Name = "password";
             password.Size = new Size(150, 23);
@@ -52,6 +54,7 @@
             // 
             // button1
             // 
+            button1.Anchor = AnchorStyles.None;
             button1.Font = new Font("Segoe UI", 11F, FontStyle.Bold);
             button1.Location = new Point(355, 360);
             button1.Name = "button1";
@@ -62,6 +65,7 @@
             // 
             // label1
             // 
+            label1.Anchor = AnchorStyles.None;
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 12F);
             label1.ForeColor = Color.White;
@@ -73,6 +77,7 @@
             // 
             // label2
             // 
+            label2.Anchor = AnchorStyles.None;
             label2.AutoSize = true;
             label2.Font = new Font("Segoe UI", 12F);
             label2.ForeColor = Color.White;
