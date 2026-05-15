@@ -32,7 +32,12 @@ namespace cafe_adisyon
 
         private void button5_Click(object sender, EventArgs e)
         {
+            listBox1.Items.Add("Latte" + "135TL");
+        }
 
+        private void Siparis_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

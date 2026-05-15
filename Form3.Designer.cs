@@ -1966,6 +1966,7 @@
             Controls.Add(listBox1);
             Name = "Siparis";
             Text = "Siparis";
+            FormClosed += Siparis_FormClosed;
             Load += Siparis_Load;
             tabControl1.ResumeLayout(false);
             tabPage1.ResumeLayout(false);

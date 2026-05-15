@@ -319,6 +319,8 @@
             Controls.Add(masabtn_1);
             Name = "Masa_secim";
             Text = "Masa_secim";
+            FormClosed += Masa_secim_FormClosed;
+            Load += Masa_secim_Load;
             ResumeLayout(false);
         }
 

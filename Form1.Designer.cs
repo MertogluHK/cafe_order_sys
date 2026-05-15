@@ -49,6 +49,7 @@
             password.Anchor = AnchorStyles.None;
             password.Location = new Point(325, 300);
             password.Name = "password";
+            password.PasswordChar = '*';
             password.Size = new Size(150, 23);
             password.TabIndex = 1;
             // 
@@ -62,6 +63,7 @@
             button1.TabIndex = 2;
             button1.Text = "Giriş";
             button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // label1
             // 

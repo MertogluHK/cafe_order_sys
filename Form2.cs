@@ -19,5 +19,15 @@ namespace cafe_adisyon
         {
 
         }
+
+        private void Masa_secim_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Masa_secim_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
