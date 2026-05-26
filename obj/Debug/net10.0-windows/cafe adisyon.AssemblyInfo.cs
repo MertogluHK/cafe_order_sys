@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("cafe adisyon")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6444b7fc87cb31bc9421bac990b7fbd9902a94de")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6af27dc6ff99412072116d288ef641d0d1396039")]
 [assembly: System.Reflection.AssemblyProductAttribute("cafe adisyon")]
 [assembly: System.Reflection.AssemblyTitleAttribute("cafe adisyon")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

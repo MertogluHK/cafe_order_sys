@@ -318,6 +318,7 @@
             button21.TabIndex = 41;
             button21.Text = "-";
             button21.UseVisualStyleBackColor = false;
+            button21.Click += button21_Click;
             // 
             // button22
             // 
@@ -329,6 +330,7 @@
             button22.TabIndex = 40;
             button22.Text = "+";
             button22.UseVisualStyleBackColor = false;
+            button22.Click += button22_Click;
             // 
             // button19
             // 
@@ -340,6 +342,7 @@
             button19.TabIndex = 39;
             button19.Text = "-";
             button19.UseVisualStyleBackColor = false;
+            button19.Click += button19_Click;
             // 
             // button20
             // 
@@ -351,6 +354,7 @@
             button20.TabIndex = 38;
             button20.Text = "+";
             button20.UseVisualStyleBackColor = false;
+            button20.Click += button20_Click;
             // 
             // button17
             // 
@@ -362,6 +366,7 @@
             button17.TabIndex = 37;
             button17.Text = "-";
             button17.UseVisualStyleBackColor = false;
+            button17.Click += button17_Click;
             // 
             // button18
             // 
@@ -373,6 +378,7 @@
             button18.TabIndex = 36;
             button18.Text = "+";
             button18.UseVisualStyleBackColor = false;
+            button18.Click += button18_Click;
             // 
             // button15
             // 
@@ -384,6 +390,7 @@
             button15.TabIndex = 35;
             button15.Text = "-";
             button15.UseVisualStyleBackColor = false;
+            button15.Click += button15_Click;
             // 
             // button16
             // 
@@ -395,6 +402,7 @@
             button16.TabIndex = 34;
             button16.Text = "+";
             button16.UseVisualStyleBackColor = false;
+            button16.Click += button16_Click;
             // 
             // button13
             // 
@@ -406,6 +414,7 @@
             button13.TabIndex = 33;
             button13.Text = "-";
             button13.UseVisualStyleBackColor = false;
+            button13.Click += button13_Click;
             // 
             // button14
             // 
@@ -417,6 +426,7 @@
             button14.TabIndex = 32;
             button14.Text = "+";
             button14.UseVisualStyleBackColor = false;
+            button14.Click += button14_Click;
             // 
             // button11
             // 
@@ -428,6 +438,7 @@
             button11.TabIndex = 31;
             button11.Text = "-";
             button11.UseVisualStyleBackColor = false;
+            button11.Click += button11_Click;
             // 
             // button12
             // 
@@ -439,6 +450,7 @@
             button12.TabIndex = 30;
             button12.Text = "+";
             button12.UseVisualStyleBackColor = false;
+            button12.Click += button12_Click;
             // 
             // button9
             // 
@@ -450,6 +462,7 @@
             button9.TabIndex = 29;
             button9.Text = "-";
             button9.UseVisualStyleBackColor = false;
+            button9.Click += button9_Click;
             // 
             // button10
             // 
@@ -461,6 +474,7 @@
             button10.TabIndex = 28;
             button10.Text = "+";
             button10.UseVisualStyleBackColor = false;
+            button10.Click += button10_Click;
             // 
             // button7
             // 
@@ -472,6 +486,7 @@
             button7.TabIndex = 27;
             button7.Text = "-";
             button7.UseVisualStyleBackColor = false;
+            button7.Click += button7_Click;
             // 
             // button8
             // 
@@ -483,6 +498,7 @@
             button8.TabIndex = 26;
             button8.Text = "+";
             button8.UseVisualStyleBackColor = false;
+            button8.Click += button8_Click;
             // 
             // button6
             // 
@@ -607,9 +623,9 @@
             label6.AutoSize = true;
             label6.Location = new Point(347, 29);
             label6.Name = "label6";
-            label6.Size = new Size(43, 15);
+            label6.Size = new Size(44, 15);
             label6.TabIndex = 7;
-            label6.Text = "Mocca";
+            label6.Text = "Mocha";
             // 
             // label5
             // 
@@ -727,6 +743,7 @@
             button40.TabIndex = 85;
             button40.Text = "-";
             button40.UseVisualStyleBackColor = false;
+            button40.Click += button40_Click;
             // 
             // button41
             // 
@@ -738,6 +755,7 @@
             button41.TabIndex = 84;
             button41.Text = "+";
             button41.UseVisualStyleBackColor = false;
+            button41.Click += button41_Click;
             // 
             // button42
             // 
@@ -749,6 +767,7 @@
             button42.TabIndex = 83;
             button42.Text = "-";
             button42.UseVisualStyleBackColor = false;
+            button42.Click += button42_Click;
             // 
             // button43
             // 
@@ -760,6 +779,7 @@
             button43.TabIndex = 82;
             button43.Text = "+";
             button43.UseVisualStyleBackColor = false;
+            button43.Click += button43_Click;
             // 
             // button44
             // 
@@ -771,6 +791,7 @@
             button44.TabIndex = 81;
             button44.Text = "-";
             button44.UseVisualStyleBackColor = false;
+            button44.Click += button44_Click;
             // 
             // button45
             // 
@@ -782,6 +803,7 @@
             button45.TabIndex = 80;
             button45.Text = "+";
             button45.UseVisualStyleBackColor = false;
+            button45.Click += button45_Click;
             // 
             // button46
             // 
@@ -793,6 +815,7 @@
             button46.TabIndex = 79;
             button46.Text = "-";
             button46.UseVisualStyleBackColor = false;
+            button46.Click += button46_Click;
             // 
             // button47
             // 
@@ -804,6 +827,7 @@
             button47.TabIndex = 78;
             button47.Text = "+";
             button47.UseVisualStyleBackColor = false;
+            button47.Click += button47_Click;
             // 
             // button48
             // 
@@ -815,6 +839,7 @@
             button48.TabIndex = 77;
             button48.Text = "-";
             button48.UseVisualStyleBackColor = false;
+            button48.Click += button48_Click;
             // 
             // button49
             // 
@@ -826,6 +851,7 @@
             button49.TabIndex = 76;
             button49.Text = "+";
             button49.UseVisualStyleBackColor = false;
+            button49.Click += button49_Click;
             // 
             // button50
             // 
@@ -837,6 +863,7 @@
             button50.TabIndex = 75;
             button50.Text = "-";
             button50.UseVisualStyleBackColor = false;
+            button50.Click += button50_Click;
             // 
             // button51
             // 
@@ -848,6 +875,7 @@
             button51.TabIndex = 74;
             button51.Text = "+";
             button51.UseVisualStyleBackColor = false;
+            button51.Click += button51_Click;
             // 
             // button52
             // 
@@ -859,6 +887,7 @@
             button52.TabIndex = 73;
             button52.Text = "-";
             button52.UseVisualStyleBackColor = false;
+            button52.Click += button52_Click;
             // 
             // button53
             // 
@@ -870,6 +899,7 @@
             button53.TabIndex = 72;
             button53.Text = "+";
             button53.UseVisualStyleBackColor = false;
+            button53.Click += button53_Click;
             // 
             // label19
             // 
@@ -903,11 +933,11 @@
             // label22
             // 
             label22.AutoSize = true;
-            label22.Location = new Point(762, 28);
+            label22.Location = new Point(744, 28);
             label22.Name = "label22";
-            label22.Size = new Size(68, 15);
+            label22.Size = new Size(100, 15);
             label22.TabIndex = 58;
-            label22.Text = "Filtre Kahve";
+            label22.Text = "Buzlu Filtre Kahve";
             // 
             // label23
             // 

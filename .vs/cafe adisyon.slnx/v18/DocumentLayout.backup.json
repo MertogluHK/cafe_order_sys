@@ -46,8 +46,7 @@
               "RelativeToolTip": "Form1.cs [Tasar\u0131m]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-15T08:57:10.763Z",
-              "IsPinned": true,
-              "EditorCaption": " [Tasar\u0131m]"
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -59,8 +58,7 @@
               "RelativeToolTip": "Form2.cs [Tasar\u0131m]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-15T08:57:09.478Z",
-              "IsPinned": true,
-              "EditorCaption": " [Tasar\u0131m]"
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -86,8 +84,7 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-15T09:18:49.467Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -100,8 +97,7 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-15T09:21:10.594Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -111,7 +107,7 @@
               "RelativeDocumentMoniker": "Form3.cs",
               "ToolTip": "C:\\Users\\kursa\\source\\repos\\cafe_order_sys\\Form3.cs",
               "RelativeToolTip": "Form3.cs",
-              "ViewState": "AgIAAFUAAAAAAAAAAAAqwHYAAABIAAAAAAAAAA==",
+              "ViewState": "AgIAAK4DAAAAAAAAAAAAANgDAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-15T09:21:42.969Z",
               "IsPinned": true,
