@@ -61,6 +61,7 @@
             masabtn_1.Tag = "masa";
             masabtn_1.Text = "MASA 1";
             masabtn_1.UseVisualStyleBackColor = false;
+            masabtn_1.Click += masabtn_1_Click;
             // 
             // masabtn_2
             // 
@@ -73,6 +74,7 @@
             masabtn_2.Tag = "masa";
             masabtn_2.Text = "MASA 2";
             masabtn_2.UseVisualStyleBackColor = false;
+            masabtn_2.Click += masabtn_2_Click;
             // 
             // masabtn_3
             // 
@@ -85,6 +87,7 @@
             masabtn_3.Tag = "masa";
             masabtn_3.Text = "MASA 3";
             masabtn_3.UseVisualStyleBackColor = false;
+            masabtn_3.Click += masabtn_3_Click;
             // 
             // masabtn_4
             // 
@@ -97,6 +100,7 @@
             masabtn_4.Tag = "masa";
             masabtn_4.Text = "MASA 4";
             masabtn_4.UseVisualStyleBackColor = false;
+            masabtn_4.Click += masabtn_4_Click;
             // 
             // masabtn_6
             // 
@@ -109,6 +113,7 @@
             masabtn_6.Tag = "masa";
             masabtn_6.Text = "MASA 6";
             masabtn_6.UseVisualStyleBackColor = false;
+            masabtn_6.Click += masabtn_6_Click;
             // 
             // masabtn_7
             // 
@@ -121,6 +126,7 @@
             masabtn_7.Tag = "masa";
             masabtn_7.Text = "MASA 7";
             masabtn_7.UseVisualStyleBackColor = false;
+            masabtn_7.Click += masabtn_7_Click;
             // 
             // masabtn_8
             // 
@@ -146,6 +152,7 @@
             masabtn_9.Tag = "masa";
             masabtn_9.Text = "MASA 9";
             masabtn_9.UseVisualStyleBackColor = false;
+            masabtn_9.Click += masabtn_9_Click;
             // 
             // masabtn_11
             // 
@@ -158,6 +165,7 @@
             masabtn_11.Tag = "masa";
             masabtn_11.Text = "MASA 11";
             masabtn_11.UseVisualStyleBackColor = false;
+            masabtn_11.Click += masabtn_11_Click;
             // 
             // masabtn_12
             // 
@@ -170,6 +178,7 @@
             masabtn_12.Tag = "masa";
             masabtn_12.Text = "MASA 12";
             masabtn_12.UseVisualStyleBackColor = false;
+            masabtn_12.Click += masabtn_12_Click;
             // 
             // masabtn_13
             // 
@@ -182,6 +191,7 @@
             masabtn_13.Tag = "masa";
             masabtn_13.Text = "MASA 13";
             masabtn_13.UseVisualStyleBackColor = false;
+            masabtn_13.Click += masabtn_13_Click;
             // 
             // masabtn_14
             // 
@@ -194,6 +204,7 @@
             masabtn_14.Tag = "masa";
             masabtn_14.Text = "MASA 14";
             masabtn_14.UseVisualStyleBackColor = false;
+            masabtn_14.Click += masabtn_14_Click;
             // 
             // masabtn_18
             // 
@@ -206,6 +217,7 @@
             masabtn_18.Tag = "masa";
             masabtn_18.Text = "MASA 18";
             masabtn_18.UseVisualStyleBackColor = false;
+            masabtn_18.Click += masabtn_18_Click;
             // 
             // masabtn_16
             // 
@@ -218,6 +230,7 @@
             masabtn_16.Tag = "masa";
             masabtn_16.Text = "MASA 16";
             masabtn_16.UseVisualStyleBackColor = false;
+            masabtn_16.Click += masabtn_16_Click;
             // 
             // masabtn_5
             // 
@@ -230,6 +243,7 @@
             masabtn_5.Tag = "masa";
             masabtn_5.Text = "MASA 5";
             masabtn_5.UseVisualStyleBackColor = false;
+            masabtn_5.Click += masabtn_5_Click;
             // 
             // masabtn_10
             // 
@@ -242,6 +256,7 @@
             masabtn_10.Tag = "masa";
             masabtn_10.Text = "MASA 10";
             masabtn_10.UseVisualStyleBackColor = false;
+            masabtn_10.Click += masabtn_10_Click;
             // 
             // masabtn_15
             // 
@@ -254,6 +269,7 @@
             masabtn_15.Tag = "masa";
             masabtn_15.Text = "MASA 15";
             masabtn_15.UseVisualStyleBackColor = false;
+            masabtn_15.Click += masabtn_15_Click;
             // 
             // masabtn_20
             // 
@@ -266,6 +282,7 @@
             masabtn_20.Tag = "masa";
             masabtn_20.Text = "MASA 20";
             masabtn_20.UseVisualStyleBackColor = false;
+            masabtn_20.Click += masabtn_20_Click;
             // 
             // masabtn_17
             // 
@@ -278,6 +295,7 @@
             masabtn_17.Tag = "masa";
             masabtn_17.Text = "MASA 17";
             masabtn_17.UseVisualStyleBackColor = false;
+            masabtn_17.Click += masabtn_17_Click;
             // 
             // masabtn_19
             // 
@@ -290,6 +308,7 @@
             masabtn_19.Tag = "masa";
             masabtn_19.Text = "MASA 19";
             masabtn_19.UseVisualStyleBackColor = false;
+            masabtn_19.Click += masabtn_19_Click;
             // 
             // Masa_secim
             // 
