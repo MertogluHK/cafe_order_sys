@@ -1124,5 +1124,541 @@ namespace cafe_adisyon
                 }
             }
         }
+
+        private void button76_Click(object sender, EventArgs e)
+        {
+            bool bulundu = false;
+
+            for (int i = 0; i < listBox1.Items.Count; i++)
+            {
+                string item = listBox1.Items[i].ToString()!;
+
+                if (item.StartsWith("Limonlu Cheesecake"))
+                {
+                    string[] parca = item.Split('x');
+
+                    int adet = Convert.ToInt32(parca[1]);
+
+                    adet++;
+
+                    listBox1.Items[i] = "Limonlu Cheesecake x" + adet;
+
+                    siparis += 160;
+
+                    bulundu = true;
+
+                    siparistxt.Text = ("SİPARİŞ: " + Convert.ToString(siparis));
+                    break;
+                }
+            }
+
+            if (!bulundu)
+            {
+                listBox1.Items.Add("Limonlu Cheesecake x1");
+                siparis += 160;
+                siparistxt.Text = ("SİPARİŞ: " + Convert.ToString(siparis));
+            }
+        }
+
+        private void button75_Click(object sender, EventArgs e)
+        {
+            for (int i = 0; i < listBox1.Items.Count; i++)
+            {
+                string item = listBox1.Items[i].ToString()!;
+
+                if (item.StartsWith("Limonlu Cheesecake"))
+                {
+                    string[] parca = item.Split('x');
+
+                    int adet = Convert.ToInt32(parca[1]);
+
+                    if (adet == 1)
+                    {
+                        adet--;
+                        siparis -= 160;
+                        siparistxt.Text = ("SİPARİŞ: " + Convert.ToString(siparis));
+                        listBox1.Items.RemoveAt(i);
+                        break;
+                    }
+
+                    adet--;
+
+                    listBox1.Items[i] = "Limonlu Cheesecake x" + adet;
+
+                    siparis -= 160;
+                    siparistxt.Text = ("SİPARİŞ: " + Convert.ToString(siparis));
+                    break;
+                }
+            }
+        }
+
+        private void button74_Click(object sender, EventArgs e)
+        {
+            bool bulundu = false;
+
+            for (int i = 0; i < listBox1.Items.Count; i++)
+            {
+                string item = listBox1.Items[i].ToString()!;
+
+                if (item.StartsWith("Mozaik Pasta"))
+                {
+                    string[] parca = item.Split('x');
+
+                    int adet = Convert.ToInt32(parca[1]);
+
+                    adet++;
+
+                    listBox1.Items[i] = "Mozaik Pasta x" + adet;
+
+                    siparis += 150;
+
+                    bulundu = true;
+
+                    siparistxt.Text = ("SİPARİŞ: " + Convert.ToString(siparis));
+                    break;
+                }
+            }
+
+            if (!bulundu)
+            {
+                listBox1.Items.Add("Mozaik Pasta x1");
+                siparis += 150;
+                siparistxt.Text = ("SİPARİŞ: " + Convert.ToString(siparis));
+            }
+        }
+
+        private void button73_Click(object sender, EventArgs e)
+        {
+            for (int i = 0; i < listBox1.Items.Count; i++)
+            {
+                string item = listBox1.Items[i].ToString()!;
+
+                if (item.StartsWith("Mozaik Pasta"))
+                {
+                    string[] parca = item.Split('x');
+
+                    int adet = Convert.ToInt32(parca[1]);
+
+                    if (adet == 1)
+                    {
+                        adet--;
+                        siparis -= 150;
+                        siparistxt.Text = ("SİPARİŞ: " + Convert.ToString(siparis));
+                        listBox1.Items.RemoveAt(i);
+                        break;
+                    }
+
+                    adet--;
+
+                    listBox1.Items[i] = "Mozaik Pasta x" + adet;
+
+                    siparis -= 150;
+                    siparistxt.Text = ("SİPARİŞ: " + Convert.ToString(siparis));
+                    break;
+                }
+            }
+        }
+
+        private void button72_Click(object sender, EventArgs e)
+        {
+            bool bulundu = false;
+
+            for (int i = 0; i < listBox1.Items.Count; i++)
+            {
+                string item = listBox1.Items[i].ToString()!;
+
+                if (item.StartsWith("Sufle"))
+                {
+                    string[] parca = item.Split('x');
+
+                    int adet = Convert.ToInt32(parca[1]);
+
+                    adet++;
+
+                    listBox1.Items[i] = "Sufle x" + adet;
+
+                    siparis += 170;
+
+                    bulundu = true;
+
+                    siparistxt.Text = ("SİPARİŞ: " + Convert.ToString(siparis));
+                    break;
+                }
+            }
+
+            if (!bulundu)
+            {
+                listBox1.Items.Add("Sufle x1");
+                siparis += 170;
+                siparistxt.Text = ("SİPARİŞ: " + Convert.ToString(siparis));
+            }
+        }
+
+        private void button71_Click(object sender, EventArgs e)
+        {
+            for (int i = 0; i < listBox1.Items.Count; i++)
+            {
+                string item = listBox1.Items[i].ToString()!;
+
+                if (item.StartsWith("Sufle"))
+                {
+                    string[] parca = item.Split('x');
+
+                    int adet = Convert.ToInt32(parca[1]);
+
+                    if (adet == 1)
+                    {
+                        adet--;
+                        siparis -= 170;
+                        siparistxt.Text = ("SİPARİŞ: " + Convert.ToString(siparis));
+                        listBox1.Items.RemoveAt(i);
+                        break;
+                    }
+
+                    adet--;
+
+                    listBox1.Items[i] = "Sufle x" + adet;
+
+                    siparis -= 170;
+                    siparistxt.Text = ("SİPARİŞ: " + Convert.ToString(siparis));
+                    break;
+                }
+            }
+        }
+
+        private void button70_Click(object sender, EventArgs e)
+        {
+            bool bulundu = false;
+
+            for (int i = 0; i < listBox1.Items.Count; i++)
+            {
+                string item = listBox1.Items[i].ToString()!;
+
+                if (item.StartsWith("Tiramisu"))
+                {
+                    string[] parca = item.Split('x');
+
+                    int adet = Convert.ToInt32(parca[1]);
+
+                    adet++;
+
+                    listBox1.Items[i] = "Tiramisu x" + adet;
+
+                    siparis += 165;
+
+                    bulundu = true;
+
+                    siparistxt.Text = ("SİPARİŞ: " + Convert.ToString(siparis));
+                    break;
+                }
+            }
+
+            if (!bulundu)
+            {
+                listBox1.Items.Add("Tiramisu x1");
+                siparis += 165;
+                siparistxt.Text = ("SİPARİŞ: " + Convert.ToString(siparis));
+            }
+        }
+
+        private void button69_Click(object sender, EventArgs e)
+        {
+            for (int i = 0; i < listBox1.Items.Count; i++)
+            {
+                string item = listBox1.Items[i].ToString()!;
+
+                if (item.StartsWith("Tiramisu"))
+                {
+                    string[] parca = item.Split('x');
+
+                    int adet = Convert.ToInt32(parca[1]);
+
+                    if (adet == 1)
+                    {
+                        adet--;
+                        siparis -= 165;
+                        siparistxt.Text = ("SİPARİŞ: " + Convert.ToString(siparis));
+                        listBox1.Items.RemoveAt(i);
+                        break;
+                    }
+
+                    adet--;
+
+                    listBox1.Items[i] = "Tiramisu x" + adet;
+
+                    siparis -= 165;
+                    siparistxt.Text = ("SİPARİŞ: " + Convert.ToString(siparis));
+                    break;
+                }
+            }
+        }
+
+        private void button68_Click(object sender, EventArgs e)
+        {
+            bool bulundu = false;
+
+            for (int i = 0; i < listBox1.Items.Count; i++)
+            {
+                string item = listBox1.Items[i].ToString()!;
+
+                if (item.StartsWith("Çikolatalı Puding"))
+                {
+                    string[] parca = item.Split('x');
+
+                    int adet = Convert.ToInt32(parca[1]);
+
+                    adet++;
+
+                    listBox1.Items[i] = "Çikolatalı Puding x" + adet;
+
+                    siparis += 140;
+
+                    bulundu = true;
+
+                    siparistxt.Text = ("SİPARİŞ: " + Convert.ToString(siparis));
+                    break;
+                }
+            }
+
+            if (!bulundu)
+            {
+                listBox1.Items.Add("Çikolatalı Puding x1");
+                siparis += 140;
+                siparistxt.Text = ("SİPARİŞ: " + Convert.ToString(siparis));
+            }
+        }
+
+        private void button67_Click(object sender, EventArgs e)
+        {
+            for (int i = 0; i < listBox1.Items.Count; i++)
+            {
+                string item = listBox1.Items[i].ToString()!;
+
+                if (item.StartsWith("Çikolatalı Puding"))
+                {
+                    string[] parca = item.Split('x');
+
+                    int adet = Convert.ToInt32(parca[1]);
+
+                    if (adet == 1)
+                    {
+                        adet--;
+                        siparis -= 140;
+                        siparistxt.Text = ("SİPARİŞ: " + Convert.ToString(siparis));
+                        listBox1.Items.RemoveAt(i);
+                        break;
+                    }
+
+                    adet--;
+
+                    listBox1.Items[i] = "Çikolatalı Puding x" + adet;
+
+                    siparis -= 140;
+                    siparistxt.Text = ("SİPARİŞ: " + Convert.ToString(siparis));
+                    break;
+                }
+            }
+        }
+
+        private void button66_Click(object sender, EventArgs e)
+        {
+            bool bulundu = false;
+
+            for (int i = 0; i < listBox1.Items.Count; i++)
+            {
+                string item = listBox1.Items[i].ToString()!;
+
+                if (item.StartsWith("Muffin"))
+                {
+                    string[] parca = item.Split('x');
+
+                    int adet = Convert.ToInt32(parca[1]);
+
+                    adet++;
+
+                    listBox1.Items[i] = "Muffin x" + adet;
+
+                    siparis += 55;
+
+                    bulundu = true;
+
+                    siparistxt.Text = ("SİPARİŞ: " + Convert.ToString(siparis));
+                    break;
+                }
+            }
+
+            if (!bulundu)
+            {
+                listBox1.Items.Add("Muffin x1");
+                siparis += 55;
+                siparistxt.Text = ("SİPARİŞ: " + Convert.ToString(siparis));
+            }
+        }
+
+        private void button65_Click(object sender, EventArgs e)
+        {
+            for (int i = 0; i < listBox1.Items.Count; i++)
+            {
+                string item = listBox1.Items[i].ToString()!;
+
+                if (item.StartsWith("Muffin"))
+                {
+                    string[] parca = item.Split('x');
+
+                    int adet = Convert.ToInt32(parca[1]);
+
+                    if (adet == 1)
+                    {
+                        adet--;
+                        siparis -= 55;
+                        siparistxt.Text = ("SİPARİŞ: " + Convert.ToString(siparis));
+                        listBox1.Items.RemoveAt(i);
+                        break;
+                    }
+
+                    adet--;
+
+                    listBox1.Items[i] = "Muffin x" + adet;
+
+                    siparis -= 55;
+                    siparistxt.Text = ("SİPARİŞ: " + Convert.ToString(siparis));
+                    break;
+                }
+            }
+        }
+
+        private void button64_Click(object sender, EventArgs e)
+        {
+            bool bulundu = false;
+
+            for (int i = 0; i < listBox1.Items.Count; i++)
+            {
+                string item = listBox1.Items[i].ToString()!;
+
+                if (item.StartsWith("Islak Kek"))
+                {
+                    string[] parca = item.Split('x');
+
+                    int adet = Convert.ToInt32(parca[1]);
+
+                    adet++;
+
+                    listBox1.Items[i] = "Islak Kek x" + adet;
+
+                    siparis += 85;
+
+                    bulundu = true;
+
+                    siparistxt.Text = ("SİPARİŞ: " + Convert.ToString(siparis));
+                    break;
+                }
+            }
+
+            if (!bulundu)
+            {
+                listBox1.Items.Add("Islak Kek x1");
+                siparis += 85;
+                siparistxt.Text = ("SİPARİŞ: " + Convert.ToString(siparis));
+            }
+        }
+
+        private void button63_Click(object sender, EventArgs e)
+        {
+            for (int i = 0; i < listBox1.Items.Count; i++)
+            {
+                string item = listBox1.Items[i].ToString()!;
+
+                if (item.StartsWith("Islak Kek"))
+                {
+                    string[] parca = item.Split('x');
+
+                    int adet = Convert.ToInt32(parca[1]);
+
+                    if (adet == 1)
+                    {
+                        adet--;
+                        siparis -= 85;
+                        siparistxt.Text = ("SİPARİŞ: " + Convert.ToString(siparis));
+                        listBox1.Items.RemoveAt(i);
+                        break;
+                    }
+
+                    adet--;
+
+                    listBox1.Items[i] = "Islak Kek x" + adet;
+
+                    siparis -= 85;
+                    siparistxt.Text = ("SİPARİŞ: " + Convert.ToString(siparis));
+                    break;
+                }
+            }
+        }
+
+        private void button62_Click(object sender, EventArgs e)
+        {
+            bool bulundu = false;
+
+            for (int i = 0; i < listBox1.Items.Count; i++)
+            {
+                string item = listBox1.Items[i].ToString()!;
+
+                if (item.StartsWith("Çikolatalı Kurabiye"))
+                {
+                    string[] parca = item.Split('x');
+
+                    int adet = Convert.ToInt32(parca[1]);
+
+                    adet++;
+
+                    listBox1.Items[i] = "Çikolatalı Kurabiye x" + adet;
+
+                    siparis += 35;
+
+                    bulundu = true;
+
+                    siparistxt.Text = ("SİPARİŞ: " + Convert.ToString(siparis));
+                    break;
+                }
+            }
+
+            if (!bulundu)
+            {
+                listBox1.Items.Add("Çikolatalı Kurabiye x1");
+                siparis += 35;
+                siparistxt.Text = ("SİPARİŞ: " + Convert.ToString(siparis));
+            }
+        }
+
+        private void button61_Click(object sender, EventArgs e)
+        {
+            for (int i = 0; i < listBox1.Items.Count; i++)
+            {
+                string item = listBox1.Items[i].ToString()!;
+
+                if (item.StartsWith("Çikolatalı Kurabiye"))
+                {
+                    string[] parca = item.Split('x');
+
+                    int adet = Convert.ToInt32(parca[1]);
+
+                    if (adet == 1)
+                    {
+                        adet--;
+                        siparis -= 35;
+                        siparistxt.Text = ("SİPARİŞ: " + Convert.ToString(siparis));
+                        listBox1.Items.RemoveAt(i);
+                        break;
+                    }
+
+                    adet--;
+
+                    listBox1.Items[i] = "Çikolatalı Kurabiye x" + adet;
+
+                    siparis -= 35;
+                    siparistxt.Text = ("SİPARİŞ: " + Convert.ToString(siparis));
+                    break;
+                }
+            }
+        }
     }
 }

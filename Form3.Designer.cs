@@ -1086,6 +1086,7 @@
             button61.TabIndex = 135;
             button61.Text = "-";
             button61.UseVisualStyleBackColor = false;
+            button61.Click += button61_Click;
             // 
             // button62
             // 
@@ -1097,6 +1098,7 @@
             button62.TabIndex = 134;
             button62.Text = "+";
             button62.UseVisualStyleBackColor = false;
+            button62.Click += button62_Click;
             // 
             // button63
             // 
@@ -1108,6 +1110,7 @@
             button63.TabIndex = 133;
             button63.Text = "-";
             button63.UseVisualStyleBackColor = false;
+            button63.Click += button63_Click;
             // 
             // button64
             // 
@@ -1119,6 +1122,7 @@
             button64.TabIndex = 132;
             button64.Text = "+";
             button64.UseVisualStyleBackColor = false;
+            button64.Click += button64_Click;
             // 
             // button65
             // 
@@ -1130,6 +1134,7 @@
             button65.TabIndex = 131;
             button65.Text = "-";
             button65.UseVisualStyleBackColor = false;
+            button65.Click += button65_Click;
             // 
             // button66
             // 
@@ -1141,6 +1146,7 @@
             button66.TabIndex = 130;
             button66.Text = "+";
             button66.UseVisualStyleBackColor = false;
+            button66.Click += button66_Click;
             // 
             // button67
             // 
@@ -1152,6 +1158,7 @@
             button67.TabIndex = 129;
             button67.Text = "-";
             button67.UseVisualStyleBackColor = false;
+            button67.Click += button67_Click;
             // 
             // button68
             // 
@@ -1163,6 +1170,7 @@
             button68.TabIndex = 128;
             button68.Text = "+";
             button68.UseVisualStyleBackColor = false;
+            button68.Click += button68_Click;
             // 
             // button69
             // 
@@ -1174,6 +1182,7 @@
             button69.TabIndex = 127;
             button69.Text = "-";
             button69.UseVisualStyleBackColor = false;
+            button69.Click += button69_Click;
             // 
             // button70
             // 
@@ -1185,6 +1194,7 @@
             button70.TabIndex = 126;
             button70.Text = "+";
             button70.UseVisualStyleBackColor = false;
+            button70.Click += button70_Click;
             // 
             // button71
             // 
@@ -1196,6 +1206,7 @@
             button71.TabIndex = 125;
             button71.Text = "-";
             button71.UseVisualStyleBackColor = false;
+            button71.Click += button71_Click;
             // 
             // button72
             // 
@@ -1207,6 +1218,7 @@
             button72.TabIndex = 124;
             button72.Text = "+";
             button72.UseVisualStyleBackColor = false;
+            button72.Click += button72_Click;
             // 
             // button73
             // 
@@ -1218,6 +1230,7 @@
             button73.TabIndex = 123;
             button73.Text = "-";
             button73.UseVisualStyleBackColor = false;
+            button73.Click += button73_Click;
             // 
             // button74
             // 
@@ -1229,6 +1242,7 @@
             button74.TabIndex = 122;
             button74.Text = "+";
             button74.UseVisualStyleBackColor = false;
+            button74.Click += button74_Click;
             // 
             // button75
             // 
@@ -1240,6 +1254,7 @@
             button75.TabIndex = 121;
             button75.Text = "-";
             button75.UseVisualStyleBackColor = false;
+            button75.Click += button75_Click;
             // 
             // button76
             // 
@@ -1251,6 +1266,7 @@
             button76.TabIndex = 120;
             button76.Text = "+";
             button76.UseVisualStyleBackColor = false;
+            button76.Click += button76_Click;
             // 
             // label32
             // 
@@ -1406,6 +1422,7 @@
             // 
             // hesaptxt
             // 
+            hesaptxt.Anchor = AnchorStyles.None;
             hesaptxt.Font = new Font("Segoe UI", 30F, FontStyle.Bold);
             hesaptxt.Location = new Point(1202, 568);
             hesaptxt.Name = "hesaptxt";
@@ -1415,6 +1432,7 @@
             // 
             // siparistxt
             // 
+            siparistxt.Anchor = AnchorStyles.None;
             siparistxt.Font = new Font("Segoe UI", 30F, FontStyle.Bold);
             siparistxt.Location = new Point(12, 568);
             siparistxt.Name = "siparistxt";
