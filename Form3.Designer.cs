@@ -138,6 +138,7 @@
             pictureBox36 = new PictureBox();
             hesaptxt = new TextBox();
             siparistxt = new TextBox();
+            button2 = new Button();
             tabControl1.SuspendLayout();
             tabPage1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox10).BeginInit();
@@ -221,14 +222,14 @@
             button1.Name = "button1";
             button1.Size = new Size(158, 61);
             button1.TabIndex = 6;
-            button1.Text = "SİPARİS AL";
+            button1.Text = "SİPARİŞ AL";
             button1.UseVisualStyleBackColor = false;
             button1.Click += button1_Click;
             // 
             // button3
             // 
             button3.Anchor = AnchorStyles.None;
-            button3.BackColor = Color.Firebrick;
+            button3.BackColor = Color.FromArgb(192, 0, 0);
             button3.Font = new Font("Segoe UI", 15F);
             button3.ForeColor = Color.Black;
             button3.Location = new Point(1020, 568);
@@ -237,6 +238,7 @@
             button3.TabIndex = 8;
             button3.Text = "HESAP KAPAT";
             button3.UseVisualStyleBackColor = false;
+            button3.Click += button3_Click;
             // 
             // label1
             // 
@@ -1426,8 +1428,10 @@
             hesaptxt.Font = new Font("Segoe UI", 30F, FontStyle.Bold);
             hesaptxt.Location = new Point(1202, 568);
             hesaptxt.Name = "hesaptxt";
+            hesaptxt.ReadOnly = true;
             hesaptxt.Size = new Size(250, 61);
             hesaptxt.TabIndex = 50;
+            hesaptxt.TabStop = false;
             hesaptxt.Text = "HESAP:";
             // 
             // siparistxt
@@ -1436,9 +1440,23 @@
             siparistxt.Font = new Font("Segoe UI", 30F, FontStyle.Bold);
             siparistxt.Location = new Point(12, 568);
             siparistxt.Name = "siparistxt";
+            siparistxt.ReadOnly = true;
             siparistxt.Size = new Size(250, 61);
             siparistxt.TabIndex = 51;
+            siparistxt.TabStop = false;
             siparistxt.Text = "SİPARİŞ:";
+            // 
+            // button2
+            // 
+            button2.BackColor = Color.FromArgb(128, 255, 255);
+            button2.Font = new Font("Segoe UI", 15F);
+            button2.Location = new Point(624, 568);
+            button2.Name = "button2";
+            button2.Size = new Size(187, 61);
+            button2.TabIndex = 52;
+            button2.Text = "SİPARİŞ TEMİZLE";
+            button2.UseVisualStyleBackColor = false;
+            button2.Click += button2_Click;
             // 
             // Siparis
             // 
@@ -1446,6 +1464,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.Gray;
             ClientSize = new Size(1464, 641);
+            Controls.Add(button2);
             Controls.Add(siparistxt);
             Controls.Add(hesaptxt);
             Controls.Add(tabControl1);
@@ -1607,5 +1626,6 @@
         private TextBox hesaptxt;
         private TextBox hesap;
         private TextBox siparistxt;
+        private Button button2;
     }
 }

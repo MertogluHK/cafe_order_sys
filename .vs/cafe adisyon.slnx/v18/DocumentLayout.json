@@ -7,16 +7,16 @@
       "RelativeMoniker": "D:0:0:{53EEB82D-53B2-CFBA-A240-D13A4B46E6F7}|cafe adisyon.csproj|solutionrelative:form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{53EEB82D-53B2-CFBA-A240-D13A4B46E6F7}|cafe adisyon.csproj|C:\\Users\\kursa\\source\\repos\\cafe_order_sys\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{53EEB82D-53B2-CFBA-A240-D13A4B46E6F7}|cafe adisyon.csproj|solutionrelative:form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{53EEB82D-53B2-CFBA-A240-D13A4B46E6F7}|cafe adisyon.csproj|c:\\users\\kursa\\source\\repos\\cafe_order_sys\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{53EEB82D-53B2-CFBA-A240-D13A4B46E6F7}|cafe adisyon.csproj|solutionrelative:form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{53EEB82D-53B2-CFBA-A240-D13A4B46E6F7}|cafe adisyon.csproj|c:\\users\\kursa\\source\\repos\\cafe_order_sys\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{53EEB82D-53B2-CFBA-A240-D13A4B46E6F7}|cafe adisyon.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{53EEB82D-53B2-CFBA-A240-D13A4B46E6F7}|cafe adisyon.csproj|C:\\Users\\kursa\\source\\repos\\cafe_order_sys\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{53EEB82D-53B2-CFBA-A240-D13A4B46E6F7}|cafe adisyon.csproj|solutionrelative:form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{53EEB82D-53B2-CFBA-A240-D13A4B46E6F7}|cafe adisyon.csproj|C:\\Users\\kursa\\source\\repos\\cafe_order_sys\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -46,8 +46,7 @@
               "RelativeToolTip": "Form1.cs [Tasar\u0131m]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-15T08:57:10.763Z",
-              "IsPinned": true,
-              "EditorCaption": " [Tasar\u0131m]"
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -64,7 +63,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Form3.cs [Tasar\u0131m]",
               "DocumentMoniker": "C:\\Users\\kursa\\source\\repos\\cafe_order_sys\\Form3.cs",
               "RelativeDocumentMoniker": "Form3.cs",
@@ -77,7 +76,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\kursa\\source\\repos\\cafe_order_sys\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
@@ -86,18 +85,17 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-15T09:18:49.467Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Form2.cs",
               "DocumentMoniker": "C:\\Users\\kursa\\source\\repos\\cafe_order_sys\\Form2.cs",
               "RelativeDocumentMoniker": "Form2.cs",
               "ToolTip": "C:\\Users\\kursa\\source\\repos\\cafe_order_sys\\Form2.cs",
               "RelativeToolTip": "Form2.cs",
-              "ViewState": "AgIAAHAAAAAAAAAAAAAQwAsAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-15T09:21:10.594Z",
               "IsPinned": true,
@@ -111,7 +109,7 @@
               "RelativeDocumentMoniker": "Form3.cs",
               "ToolTip": "C:\\Users\\kursa\\source\\repos\\cafe_order_sys\\Form3.cs",
               "RelativeToolTip": "Form3.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAowHgGAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAAUHAAAAAAAAAAAAAEAAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-15T09:21:42.969Z",
               "IsPinned": true,

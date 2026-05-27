@@ -1,0 +1,20 @@
+﻿
+=== Masa 1 ===
+Tarih: 27.05.2026 17:52
+--- Hesap ---
+Sahlep x1
+Çay x1
+Mocha x1
+Cappuccino x1
+TOPLAM: 390
+✔ ÖDEME ALINDI
+------------------------------
+
+=== Masa 1 ===
+Tarih: 27.05.2026 17:55
+--- Hesap ---
+Sahlep x1
+Çay x1
+TOPLAM: 120
+✔ ÖDEME ALINDI
+------------------------------
