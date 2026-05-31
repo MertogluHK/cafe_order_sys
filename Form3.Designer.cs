@@ -1038,6 +1038,7 @@
             // 
             // tabPage3
             // 
+            tabPage3.BackColor = Color.FromArgb(255, 192, 192);
             tabPage3.Controls.Add(button61);
             tabPage3.Controls.Add(button62);
             tabPage3.Controls.Add(button63);
@@ -1076,7 +1077,6 @@
             tabPage3.Size = new Size(876, 449);
             tabPage3.TabIndex = 2;
             tabPage3.Text = "Tatlılar";
-            tabPage3.UseVisualStyleBackColor = true;
             // 
             // button61
             // 

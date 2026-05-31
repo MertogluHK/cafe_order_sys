@@ -19,20 +19,11 @@ namespace cafe_adisyon
         }
 
         int hesappp = 0;
-        int hesapp = 0;
         int siparis = 0;
 
-        private string DosyaYoluHesaplar()
+        private string DosyaYolu()
         {
             string klasor = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Adisyonlar", "Hesaplar");
-            Directory.CreateDirectory(klasor);
-            string masaAdi = masa_num.Text.Replace(" ", "");
-            return Path.Combine(klasor, $"{masaAdi}.txt");
-        }
-
-        private string DosyaYoluSiparisler()
-        {
-            string klasor = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Adisyonlar", "Siparisler");
             Directory.CreateDirectory(klasor);
             string masaAdi = masa_num.Text.Replace(" ", "");
             return Path.Combine(klasor, $"{masaAdi}.txt");
@@ -48,10 +39,10 @@ namespace cafe_adisyon
             foreach (var item in listBox2.Items)
                 sb.AppendLine(item.ToString());
 
-            sb.AppendLine($"TOPLAM: {hesapp}");
+            sb.AppendLine($"TOPLAM: {hesappp}");
             sb.AppendLine("[AÇIK ADİSYON]");
 
-            File.WriteAllText(DosyaYoluHesaplar(), sb.ToString(), Encoding.UTF8);
+            File.WriteAllText(DosyaYolu(), sb.ToString(), Encoding.UTF8);
         }
 
         private void TxtKapatHesaplar()
@@ -59,7 +50,7 @@ namespace cafe_adisyon
             string hesaplarDosya = Path.Combine(
                 AppDomain.CurrentDomain.BaseDirectory, "Adisyonlar", "Hesaplar", "Hesaplar.txt");
 
-            string dosya = DosyaYoluHesaplar();
+            string dosya = DosyaYolu();
             string[] satirlar = File.ReadAllLines(dosya, Encoding.UTF8);
             foreach (string satir in satirlar)
             {
@@ -85,41 +76,9 @@ namespace cafe_adisyon
             File.AppendAllText(hesaplarDosya, "\n" + sb.ToString(), Encoding.UTF8);
 
             // 2. Aktif masanın TXT dosyasını temizle
-            File.WriteAllText(DosyaYoluHesaplar(), string.Empty, Encoding.UTF8);
+            File.WriteAllText(DosyaYolu(), string.Empty, Encoding.UTF8);
         }
-        private void TxtKapatSiparisler()
-        {
-            string hesaplarDosya = Path.Combine(
-                AppDomain.CurrentDomain.BaseDirectory, "Adisyonlar", "Hesaplar.txt");
 
-            string dosya = DosyaYoluHesaplar();
-            string[] satirlar = File.ReadAllLines(dosya, Encoding.UTF8);
-            foreach (string satir in satirlar)
-            {
-                if (satir.StartsWith("TOPLAM:"))
-                {
-                    string[] parca = satir.Split(' ');
-                    hesappp = Convert.ToInt32(parca[1]);
-                }
-            }
-
-            var sb = new StringBuilder();
-            sb.AppendLine($"=== {masa_num.Text} ===");
-            sb.AppendLine($"Tarih: {DateTime.Now:dd.MM.yyyy HH:mm}");
-            sb.AppendLine("--- Hesap ---");
-
-            foreach (var item in listBox2.Items)
-                sb.AppendLine(item.ToString());
-
-            sb.AppendLine($"TOPLAM: {hesappp}");
-            sb.AppendLine("✔ ÖDEME ALINDI");
-            sb.AppendLine(new string('-', 30));
-
-            File.AppendAllText(hesaplarDosya, "\n" + sb.ToString(), Encoding.UTF8);
-
-            // 2. Aktif masanın TXT dosyasını temizle
-            File.WriteAllText(DosyaYoluHesaplar(), string.Empty, Encoding.UTF8);
-        }
         private void label1_Click(object sender, EventArgs e)
         {
 
@@ -132,7 +91,7 @@ namespace cafe_adisyon
 
         private void TxtdenYukle()
         {
-            string dosya = DosyaYoluHesaplar();
+            string dosya = DosyaYolu();
 
             if (!File.Exists(dosya)) return; // Dosya yoksa (yeni masa) bir şey yapma
 
@@ -253,10 +212,10 @@ namespace cafe_adisyon
                 listBox2.Items.Add(item);
             }
             listBox1.Items.Clear();
-            hesapp = hesappp + siparis;
+            hesappp = hesappp + siparis;
             siparis = 0;
             siparistxt.Text = ("SİPARİŞ: " + Convert.ToString(siparis));
-            hesaptxt.Text = ("HESAP: " + Convert.ToString(hesapp));
+            hesaptxt.Text = ("HESAP: " + Convert.ToString(hesappp));
 
             // TXT'ye yaz
             TxtGuncelle();
@@ -1816,6 +1775,7 @@ namespace cafe_adisyon
         {
             listBox1.Items.Clear();
             siparistxt.Text = "SİPARİŞ: ";
+            siparis = 0;
         }
     }
 }

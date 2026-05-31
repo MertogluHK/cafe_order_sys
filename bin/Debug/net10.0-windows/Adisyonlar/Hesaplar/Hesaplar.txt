@@ -1,20 +1,28 @@
 ﻿
-=== Masa 1 ===
-Tarih: 27.05.2026 17:52
+=== Masa 3 ===
+Tarih: 31.05.2026 02:50
 --- Hesap ---
-Sahlep x1
+Çay x2
+Çay x2
+TOPLAM: 80
+✔ ÖDEME ALINDI
+------------------------------
+
+=== Masa 3 ===
+Tarih: 31.05.2026 02:51
+--- Hesap ---
+Cappuccino x2
 Çay x1
-Mocha x1
-Cappuccino x1
-TOPLAM: 390
+Türk Kahvesi x1
+TOPLAM: 470
 ✔ ÖDEME ALINDI
 ------------------------------
 
 === Masa 1 ===
-Tarih: 27.05.2026 17:55
+Tarih: 31.05.2026 03:16
 --- Hesap ---
-Sahlep x1
+Latte x1
 Çay x1
-TOPLAM: 120
+TOPLAM: 155
 ✔ ÖDEME ALINDI
 ------------------------------
