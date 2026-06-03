@@ -1,28 +1,123 @@
 ﻿
-=== Masa 3 ===
-Tarih: 31.05.2026 02:50
+=== Masa 2 ===
+Tarih: 31.05.2026 04:16
 --- Hesap ---
-Çay x2
-Çay x2
-TOPLAM: 80
-✔ ÖDEME ALINDI
-------------------------------
-
-=== Masa 3 ===
-Tarih: 31.05.2026 02:51
---- Hesap ---
-Cappuccino x2
 Çay x1
-Türk Kahvesi x1
-TOPLAM: 470
+Çay x2
+TOPLAM: 60
 ✔ ÖDEME ALINDI
 ------------------------------
 
 === Masa 1 ===
-Tarih: 31.05.2026 03:16
+Tarih: 31.05.2026 04:16
 --- Hesap ---
-Latte x1
+Sahlep x1
 Çay x1
-TOPLAM: 155
+Sahlep x1
+TOPLAM: 220
+✔ ÖDEME ALINDI
+------------------------------
+
+=== Masa 4 ===
+Tarih: 31.05.2026 04:17
+--- Hesap ---
+Sahlep x1
+TOPLAM: 100
+✔ ÖDEME ALINDI
+------------------------------
+
+=== Masa 5 ===
+Tarih: 31.05.2026 04:17
+--- Hesap ---
+Sahlep x1
+TOPLAM: 100
+✔ ÖDEME ALINDI
+------------------------------
+
+=== Masa 7 ===
+Tarih: 31.05.2026 04:17
+--- Hesap ---
+Iced Latte x1
+Iced Cappuccino x1
+TOPLAM: 260
+✔ ÖDEME ALINDI
+------------------------------
+
+=== Masa 6 ===
+Tarih: 31.05.2026 04:17
+--- Hesap ---
+Mocha x1
+Americano x1
+TOPLAM: 275
+✔ ÖDEME ALINDI
+------------------------------
+
+=== Masa 1 ===
+Tarih: 31.05.2026 04:17
+--- Hesap ---
+Americano x1
+Sıcak Çikolata x1
+TOPLAM: 240
+✔ ÖDEME ALINDI
+------------------------------
+
+=== Masa 2 ===
+Tarih: 31.05.2026 04:17
+--- Hesap ---
+Çay x2
+TOPLAM: 40
+✔ ÖDEME ALINDI
+------------------------------
+
+=== Masa 3 ===
+Tarih: 31.05.2026 04:17
+--- Hesap ---
+Çay x1
+TOPLAM: 20
+✔ ÖDEME ALINDI
+------------------------------
+
+=== Masa 9 ===
+Tarih: 31.05.2026 04:17
+--- Hesap ---
+Sahlep x1
+Çay x1
+TOPLAM: 120
+✔ ÖDEME ALINDI
+------------------------------
+
+=== Masa 8 ===
+Tarih: 31.05.2026 04:17
+--- Hesap ---
+Sıcak Çikolata x1
+Americano x1
+TOPLAM: 240
+✔ ÖDEME ALINDI
+------------------------------
+
+=== Masa 2 ===
+Tarih: 02.06.2026 22:05
+--- Hesap ---
+Türk Kahvesi x1
+Latte x1
+TOPLAM: 255
+✔ ÖDEME ALINDI
+------------------------------
+
+=== Masa 2 ===
+Tarih: 04.06.2026 00:25
+--- Hesap ---
+Sahlep x1
+Sahlep x1
+TOPLAM: 200
+✔ ÖDEME ALINDI
+------------------------------
+
+=== Masa 2 ===
+Tarih: 04.06.2026 00:25
+--- Hesap ---
+Sahlep x1
+Sahlep x1
+TOPLAM: 200
 ✔ ÖDEME ALINDI
 ------------------------------

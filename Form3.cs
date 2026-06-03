@@ -77,6 +77,7 @@ namespace cafe_adisyon
 
             // 2. Aktif masanın TXT dosyasını temizle
             File.WriteAllText(DosyaYolu(), string.Empty, Encoding.UTF8);
+            hesappp = 0;
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -1764,11 +1765,26 @@ namespace cafe_adisyon
 
         private void button3_Click(object sender, EventArgs e)
         {
-            TxtKapatHesaplar();
+            string hesaplarDosya = Path.Combine(
+                AppDomain.CurrentDomain.BaseDirectory, "Adisyonlar", "Hesaplar", "Hesaplar.txt");
 
-            // UI sıfırla
-            hesaptxt.Text = "HESAP: ";
-            listBox2.Items.Clear();
+            string dosya = DosyaYolu();
+            string[] satirlar = File.ReadAllLines(dosya, Encoding.UTF8);
+            foreach (string satir in satirlar)
+            {
+                if (satir.StartsWith("==="))
+                {
+                    TxtKapatHesaplar();
+
+                    // UI sıfırla
+                    hesaptxt.Text = "HESAP: ";
+                    listBox2.Items.Clear();
+                } else
+                {
+                    break;
+                }
+            }
+            
         }
 
         private void button2_Click(object sender, EventArgs e)
